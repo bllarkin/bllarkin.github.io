@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" link="/css/style.css">
+</head>
+
+<body>
+  <div id="header-content" class="container">
+    <header>
+      <h1><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+      <p>{{ site.description }}</p>
+    </header>
+    <nav>
+      <a href="{{ site.baseurl }}/">Home</a>
+      <a href="{{ site.baseurl }}/about">About Me</a>
+      <a href="{{ site.baseurl }}/contact">Contact Me</a>
+      <a href="https://www.github.com/bllarkin">Github</a>
+      <a href="https://www.linkedin.com/in/brandonlarkin">LinkedIn</a>
+      <!-- RSS Icon linked to feed (bllarkin.com/feed.xml -->
+    </nav>
+  </div>
+
+  <div id="main-content" class="container">
+    {{ content }}
+  </div>
+
+  <div id="footer-content" class="container">
+    <footer>
+      <!-- Github Icon/Link -->
+      <!-- Twitter Icon/Link -->
+    </footer>
+  </div>
+</body>
+
+</html>
