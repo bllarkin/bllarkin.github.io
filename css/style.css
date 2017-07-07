@@ -1,0 +1,43 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#site-content {
+  margin: 0 auto;
+  background: white;
+}
+
+header, footer {
+  width: 100%;
+  background: lightgray;
+}
+
+.site-title {
+  float:left;
+}
+
+.site-nav {
+  float:right;
+}
+
+
+#header-content, #main-content, #footer-content {
+  width: 70%;
+  margin: auto;
+}
+
+#header-content {
+  height: 150px;
+}
+
+#footer-content {
+  height: 100px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+
+
