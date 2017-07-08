@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "The Current Learning Plan"
 ---
 To start this blog out right, I want to outline my current learning plan to create some additional accountability and create some deadlines.  I've been exploring different learning avenues for the last couple of months, gauging interest in different things, seeing what sticks with me and seems to work, etc.  These include topics like data science via [DataCamp](https://www.datacamp.com/) and [DataQuest](https://www.dataquest.io/) and [Microsoft's Professional Certificate in Data Science on edX](https://www.edx.org/microsoft-professional-program-certficate-data-science), software development via [Coursera](https://www.coursera.org), and web development via [FreeCodeCamp](https://www.freecodecamp.com) and [Udemy](https://www.udemy.com/) courses.
