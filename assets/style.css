@@ -1,43 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+body, html {
+  height: 100%;
+}
+
 body {
+  font-family: 'Raleway', sans-serif;
   padding: 0;
   margin: 0;
-  height: 100%;
 }
 
 #site-content {
   margin: 0 auto;
   background: white;
+  min-width: 960px;
+  height: 100%;
 }
 
-header, footer {
-  width: 100%;
-  background: lightgray;
+#site-header, #site-footer {
+  width: 85%;
+  margin: auto;
+}
+
+#site-header {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background: black;
+}
+
+#site-footer {
+  border-top: 1px solid black;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
 }
 
 .site-title {
   float:left;
+  height: 100%;
+  margin-left: 15px;
+  color: white;
+}
+
+.site-title h1 {
+  font-size: 2.2em;
+  margin: 5px;
+  font-weight: 700;
+}
+
+.site-title h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-title p {
+  margin: 5px;
+  font-size: 12px;
 }
 
 .site-nav {
   float:right;
+  line-height: 80px;
+  margin-right: 15px;
+  color: white;
 }
 
+nav.site-nav a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
 
-#header-content, #main-content, #footer-content {
+#main-content {
   width: 70%;
-  margin: auto;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
 
 #header-content {
-  height: 150px;
+  height: 80px;
 }
 
-#footer-content {
-  height: 100px;
-  text-align: center;
-  padding-top: 20px;
+#site-footer a {
+  font-size: 36px;
+  color: black;
+  padding-left: 5px;
 }
 
+.post-title {
+  font-size: 42px;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  margin: 5px 0;
+}
 
+.post-date {
+  padding-left: 10px;
+  font-weight: 700;
+  color: darkgray;
+}
 
-
+.post-content {
+  padding-top: 10px;
+}

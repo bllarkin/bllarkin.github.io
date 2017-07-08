@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="/assets/style.css">
+  <script src="https://use.fontawesome.com/25883b15d6.js"></script>
+  {% include googleanalytics.html %}
+</head>
+
+<body>
+
+  <div id="site-content" class="container">
+    <header id="site-header">
+      <div id="header-content">
+
+        <div class="site-title">
+          <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+          <p>{{ site.description }}</p>
+        </div>
+
+        <nav class="site-nav">
+          <a href="{{ site.baseurl }}/">Home</a> |
+          <a href="{{ site.baseurl }}/about.html">About Me</a> |
+          <a href="https://www.linkedin.com/in/brandonlarkin">LinkedIn</a>
+        </nav>
+      </div>
+    </header>
+
+    <div id="main-content">
+      {{ content }}
+    </div>
+
+    <footer id="site-footer">
+      <a href="https://www.github.com/bllarkin"><i class="fa fa-github" aria-hidden="true"></i></a>
+      <a href="https://www.twitter.com/BLarkinPhoto"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a>
+    </footer>
+  </div>
+</body>
+
+</html>
