@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "First! And A Quick History"
 ---
 So this is the first post on my new journey of development.
