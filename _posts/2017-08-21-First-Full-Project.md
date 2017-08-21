@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: Failure Already
+title: First Full Project
 ---
 
 I have been intermittently working through the Web Developer Bootcamp from Colt Steele on Udemy.  I've just completed section 15, and this was a code-along type project of building out some game logic for a color selection game.
