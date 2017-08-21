@@ -14,7 +14,7 @@ Additionally, I left out some refactors to loop over a set of buttons to add fun
 
 Here is the example:
 
-```js
+``` javascript
 function setupModeButtons(){
 	for(var i = 0; i < modeButtons.length; i++){
 		modeButtons[i].addEventListener("click", function(){
@@ -30,7 +30,7 @@ function setupModeButtons(){
 
 Here's the way I did it.  I feel like this is something that would be easier to maintain, but I may be wrong.
 
-```js
+``` javascript
 easyButton.addEventListener("click", function() {
   easyButton.classList.add("selected");
   hardButton.classList.remove("selected");
